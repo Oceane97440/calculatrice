@@ -4,6 +4,9 @@
       let b = eval(a)
       document.getElementById("output").value = b
 
+      console.log(a)
+      console.log(b)
+
       localStorage.setItem(a, b);
 
       // Accéder à des données enregistrées
@@ -26,6 +29,7 @@
   }
   //fonction qui affiche la valeur
   function afficher(val) {
+      console.log(val)
       document.getElementById("output").value += val
   }
   //fonction qui efface l'écran 
