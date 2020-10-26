@@ -1,0 +1,30 @@
+{
+  "name": "calculatrice",
+  "version": "1.0.0",
+  "description": "Projet : Crée un calculatrice qui calcul les (+ - /  *) et enregistre les 3 dernier calcul dans un local storage. La calculatrice est une appli de bureau developpé avec ELETRON + NODE JS",
+  "main": "main.js",
+  "scripts": {
+    "start-electron": "electron .",
+    "start": "node ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oceane97440/calculatrice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oceane97440/calculatrice/issues"
+  },
+  "homepage": "https://github.com/Oceane97440/calculatrice#readme",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "ejs": "^3.1.5",
+    "electromon": "^1.0.10",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0"
+  },
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
+}
