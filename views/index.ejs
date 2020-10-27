@@ -6,46 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="/admin/css/style.css">   
+    <link rel="stylesheet" href="/admin/css/style.css">
+
 
     <title>Calculatrice</title>
 </head>
 
 <body>
-    <div class="calculator card">
 
-        <input id="output" class="calculator-screen z-depth-1"/>
-        <div class="calculator-keys">
+    <div class="rows">
 
-            <button type="button" class="operator btn btn-info" onclick="afficher('+')" >+</button>
-            <button type="button" class="operator btn btn-info" onclick="afficher('-')">-</button>
-            <button type="button" class="operator btn btn-info" onclick="afficher('*')">*</button>
-            <button type="button" class="operator btn btn-info" onclick="afficher('/')">/</button>
-
-            <button type="button" value="7" class="btn btn-light waves-effect" onclick="afficher('7')">7</button>
-            <button type="button" value="8" class="btn btn-light waves-effect" onclick="afficher('8')">8</button>
-            <button type="button" value="9" class="btn btn-light waves-effect" onclick="afficher('9')">9</button>
-
-
-            <button type="button" value="4" class="btn btn-light waves-effect"onclick="afficher('4')">4</button>
-            <button type="button" value="5" class="btn btn-light waves-effect"onclick="afficher('5')">5</button>
-            <button type="button" value="6" class="btn btn-light waves-effect"onclick="afficher('6')">6</button>
-
-
-            <button type="button" value="1" class="btn btn-light waves-effect"onclick="afficher('1')">1</button>
-            <button type="button" value="2" class="btn btn-light waves-effect"onclick="afficher('2')">2</button>
-            <button type="button" value="3" class="btn btn-light waves-effect"onclick="afficher('3')">3</button>
-
-
-            <button type="button" value="0" class="btn btn-light waves-effect" onclick="afficher('0')">0</button>
-            <button type="button" class="decimal function btn btn-secondary" onclick="afficher('.')">.</button>
-            <button type="button" class="all-clear function btn btn-danger btn-sm"  onclick="effacer()">AC</button>
-
-            <button type="button" class="equal-sign operator btn btn-default" onclick="calculer()">=</button>
-
+        <div class="card" style="width: 18rem;">
+            <span id="calcule" ></span>
+            <span id="resultat" ></span>    
+    
         </div>
 
-        <input id="resultat" class="calculator-screen z-depth-1"/>
+            <div class="calculator card">
+
+                <input id="output" class="calculator-screen z-depth-1" />
+                <div class="calculator-keys">
+
+                    <button type="button" class="operator btn btn-info" onclick="afficher('+')">+</button>
+                    <button type="button" class="operator btn btn-info" onclick="afficher('-')">-</button>
+                    <button type="button" class="operator btn btn-info" onclick="afficher('*')">*</button>
+                    <button type="button" class="operator btn btn-info" onclick="afficher('/')">/</button>
+
+                    <button type="button" value="7" class="btn btn-light waves-effect"
+                        onclick="afficher('7')">7</button>
+                    <button type="button" value="8" class="btn btn-light waves-effect"
+                        onclick="afficher('8')">8</button>
+                    <button type="button" value="9" class="btn btn-light waves-effect"
+                        onclick="afficher('9')">9</button>
+
+
+                    <button type="button" value="4" class="btn btn-light waves-effect"
+                        onclick="afficher('4')">4</button>
+                    <button type="button" value="5" class="btn btn-light waves-effect"
+                        onclick="afficher('5')">5</button>
+                    <button type="button" value="6" class="btn btn-light waves-effect"
+                        onclick="afficher('6')">6</button>
+
+
+                    <button type="button" value="1" class="btn btn-light waves-effect"
+                        onclick="afficher('1')">1</button>
+                    <button type="button" value="2" class="btn btn-light waves-effect"
+                        onclick="afficher('2')">2</button>
+                    <button type="button" value="3" class="btn btn-light waves-effect"
+                        onclick="afficher('3')">3</button>
+
+
+                    <button type="button" value="0" class="btn btn-light waves-effect"
+                        onclick="afficher('0')">0</button>
+                    <button type="button" class="decimal function btn btn-secondary" onclick="afficher('.')">.</button>
+                    <button type="button" class="all-clear function btn btn-danger btn-sm"
+                        onclick="effacer()">AC</button>
+
+                    <button type="button" class="equal-sign operator btn btn-default" onclick="calculer()">=</button>
+
+                </div>
+                </div>
+
+            </div>
+
+        </div>
+      
+       
+
     </div>
 
 
