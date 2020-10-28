@@ -2,8 +2,9 @@
   function calculer() {
 
       let a = document.getElementById("output").value
-      //eval permet faire le calcul sous forme de caratère a= 2+2  b=4
+      //eval permet faire le calcul sous forme de caratère a= 2+2  b=4 a pas utiliser en front: pas sécuriser
       let b = eval(a)
+      
       document.getElementById("output").value = b
 
   
@@ -25,13 +26,13 @@
      result=localStorage.getItem(x)
 
      //affiche les resultat dans la span ex: 4+1=5
-     document.getElementById("calcule").innerHTML += x +"= "+ result + "<br>";
+     document.getElementById("calcule").innerHTML += x +" = "+ result + "<br>";
      }
 
 
     
       // Accéder à des données enregistrées
-      alert("resultat = " + localStorage.getItem(a));
+    //  alert("resultat = " + localStorage.getItem(a));
 
 
       if (localStorage.length>10) {
@@ -44,7 +45,6 @@
   }
   //fonction qui affiche la valeur
   function afficher(val) {
-      console.log('calcul ',val)
       document.getElementById("output").value += val
   }
   //fonction qui efface l'écran 
