@@ -4,8 +4,8 @@
   "description": "Projet : Crée un calculatrice qui calcul les (+ - /  *) et enregistre les 3 dernier calcul dans un local storage. La calculatrice est une appli de bureau developpé avec ELETRON + NODE JS",
   "main": "main.js",
   "scripts": {
-    "start-electron": "electron .",
-    "start": "node ./main.js"
+    "start-electron": "electron ./main.js",
+    "start": "node ./app.js"
   },
   "repository": {
     "type": "git",

@@ -1,1 +1,0 @@
-web: electron main.js
