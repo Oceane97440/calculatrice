@@ -22,3 +22,8 @@ Projet : Crée un calculatrice qui calcul les (+ - /  *) et enregistre les 10 de
 # Lancer le projet 
 
 Fait un npm run start-eletron
+
+# Source/vielle
+https://www.electronjs.org/<br>
+https://tutowebdesign.com/localstorage-javascript.php <br>
+https://www.w3schools.com/jsref/prop_win_localstorage.asp
