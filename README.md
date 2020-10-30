@@ -15,6 +15,7 @@ Projet : Crée un calculatrice qui calcul les (+ - /  *) et enregistre les 10 de
 -> historique est afficher sous forme de span
 
 <li>Etape 6 : Crée historique qui save les 10 index du local storage</li>
+-> si l'index est > 10 clear le local storage
 <li>Etape 7 : Afficher le tout</li>
 </ul>
 
