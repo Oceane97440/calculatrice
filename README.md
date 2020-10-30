@@ -17,3 +17,7 @@ Projet : Crée un calculatrice qui calcul les (+ - /  *) et enregistre les 10 de
 <li>Etape 6 : Crée historique qui save les 10 index du local storage</li>
 <li>Etape 7 : Afficher le tout</li>
 </ul>
+
+# Lancer le projet 
+
+Fait un npm run start-eletron
